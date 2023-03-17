@@ -6,9 +6,9 @@
 int main(void)
 {
 int i, m, n;
-for (i = 48; i <= 56; i++)
+for (i = 48; i <= 58; i++)
 {
-for (m = 49; m <= 57; m++)
+for (m = 49; m <= 58; m++)
 {
 for (n = 50; n <= 58; n++)
 {
@@ -17,7 +17,7 @@ if (m > i && n > m)
 putchar(i);
 putchar(m);
 putchar(n);
-if (i != 56 || m != 57)
+if (i != 55 || m != 56)
 {
 putchar(',');
 putchar(' ');
