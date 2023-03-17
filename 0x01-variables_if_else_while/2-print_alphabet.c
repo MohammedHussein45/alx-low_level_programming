@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - Print the alphabet
  * Return: Always 0 (Success)
