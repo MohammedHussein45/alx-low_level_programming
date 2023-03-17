@@ -10,7 +10,7 @@ for (i = 48; i <= 56; i++)
 {
 for (m = 49; m <= 57; m++)
 {
-if (i > m)
+if (m > i)
 {
 putchar(i);
 putchar(m);
