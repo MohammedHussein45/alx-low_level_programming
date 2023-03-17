@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Print the alphabet
- * Return: Always 0 (Success)
- */
+* main - A program that prints a line with puts function
+* Return: 0 (Success)
+*/
 int main(void)
 {
-char alp[26] = "abcdefghigklmnopqrstuvwxyz";
-int i;
-for (i = 0; i < 26; i++)
-putchar[alp[i]];
-putchar('\n');
+int i = 'A';
+for (; i <= 'Z'; i++)
+{
+putchar(tolower(i));
+}
+printf("\n");
 return (0);
 }
