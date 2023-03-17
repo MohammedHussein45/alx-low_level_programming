@@ -7,14 +7,14 @@
 int main(void)
 {
 int i = 'A';
-int y = 'a';
-for (; y <= 'Z'; y++)
-{
-putchar(tolower(y));
-}
+int j = 'a';
 for (; i <= 'Z'; i++)
 {
-putchar(toupper(i));
+putchar(tolower(i));
+}
+for (; j <= 'z'; j++)
+{
+putchar(toupper(j));
 }
 printf("\n");
 return (0);
