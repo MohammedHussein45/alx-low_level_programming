@@ -13,7 +13,9 @@ for (; y <= 'Z'; y++)
 putchar(tolower(y));
 }
 for (; i <= 'Z'; i++)
+{
 putchar(toupper(i));
+}
 printf("\n");
 return (0);
 }
