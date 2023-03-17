@@ -9,7 +9,7 @@ int main(void)
 int i = 'A';
 for (; i <= 'Z'; i++)
 {
-if (i != 'Q' || i != 'E')
+if (i != 'Q' && i != 'E')
 {
 putchar(tolower(i));
 }
