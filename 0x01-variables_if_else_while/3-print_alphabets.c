@@ -7,12 +7,13 @@
 int main(void)
 {
 int i = 'A';
-for (; i <= 'Z'; i++)
+int y = 'a';
+for (; y <= 'Z'; y++)
 {
-putchar(tolower(i));
+putchar(tolower(y));
 }
 for (; i <= 'Z'; i++)
-putchar(toupper(i))
+putchar(toupper(i));
 printf("\n");
 return (0);
 }
