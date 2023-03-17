@@ -9,8 +9,8 @@ int main(void)
 int i = 'A';
 for (; i <= 'Z'; i++)
 {
-  if (i != 'q' || i != 'e')
-    putchar(tolower(i));
+if (i != 'q' || i != 'e')
+putchar(tolower(i));
 }
 printf("\n");
 return (0);
