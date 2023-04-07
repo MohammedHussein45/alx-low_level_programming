@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _memset - fill a block of memory with a specific value
- * @s: the array 
+ * @s: the array
  * @b: the value
  * @n: number of bytes to move
  *
