@@ -1,22 +1,21 @@
 #include "main.h"
 /**
- *_strpbrk - finds the first character in the string
- * @s: input
- * @accept: input
- * return: s or '\0'
+ * _strpbrk - Returns a pointer to the first occurrence of a character
+ * @s : string to find in
+ * @accept : character to be found
+ *
+ * Return: a string
  */
 char *_strpbrk(char *s, char *accept)
 {
-  int k;
-
-	while (*s)
-	{
-		for (k = 0; accept[k]; k++)
-		{
-		if (*s == accept[k])
-		return (s);
-		}
-	s++;
-	}
-return ('\0');
+int i, j;
+for (i = 0; s[i] != '\0'; i++)
+{
+for (j = 0; accept[j] != '\0'; j++)
+{
+if (accept[j] == s[i])
+return (&s[i]);
+}
+}
+return (0);
 }
