@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- * _strchr - check if a letter is in an array
- * @s: input
- * @c: input
- * Return: s
+ * _strchr - Returns a pointer to the first occurrence of a character
+ * @s : string to find in
+ * @c : character to be found
+ *
+ * Return: a string
  */
 char *_strchr(char *s, char c)
 {
-	int i = 0;
-
-
-	for (; s[i] >= '\0'; i++)
-	{
-		if (s[i] == c)
-			return (&s[i]);
-	}
-	return (0);
+for (; ; s++)
+{
+if (*s == c)
+return (s);
+if (*s == 0)
+return (0);
+}
+return (0);
 }
