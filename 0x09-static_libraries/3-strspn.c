@@ -1,29 +1,29 @@
 #include "main.h"
 /**
- * _strspn - the length of the initial substring of the string
- * @s : input
- * @accept : input
- * return: counter
+ * _strspn - Returns a pointer to the first occurrence of a character
+ * @s : string to find in
+ * @accept : character to be found
+ *
+ * Return: a string
  */
 unsigned int _strspn(char *s, char *accept)
 {
-  	unsigned int counter = 0;
-	int i;
-
-
-	while (*s)
-	{
-		for (i = 0; accept[i]; r++)
-		{
-			if (*s == accept[r])
-			{
-				counter++;
-				break;
-			}
-			else if (accept[i + 1] == '\0')
-				return (counter);
-		}
-		s++;
-	}
-	return (counter);
+int i, j, tempo;
+tempo = 0;
+for (i = 0; s[i] != '\0'; i++)
+{
+for (j = 0; accept[j] != '\0'; j++)
+{
+if (accept[j] == s[i])
+{
+tempo++;
+break;
+}
+}
+if (accept[j] != s[i])
+{
+break;
+}
+}
+return (tempo);
 }
