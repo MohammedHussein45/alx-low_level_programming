@@ -17,10 +17,10 @@ return (NULL);
 i = 0;
 while (str[i] != '\0')
 i++;
-arr = malloc(sizeofsize(char) * (i + 1))
+arr = malloc(sizeofsize(char) * (i + 1));
 if (arr == NULL)
 return (NULL);
-for (r = 0; str[r]; r++)
-arr[r] = str[r];
+for (j = 0; str[j]; r++)
+arr[j] = str[j];
 return (arr);
 }
