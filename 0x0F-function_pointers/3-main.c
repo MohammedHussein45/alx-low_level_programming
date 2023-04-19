@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - get_op_func 
+ * main - get_op_func
  * @argc: arguments
  * @argv: double pointer to arguments
  * Return: 0
