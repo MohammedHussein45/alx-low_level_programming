@@ -20,4 +20,5 @@ if (temp != NULL)
 {
 return (temp);
 }
+return (NULL);
 }
