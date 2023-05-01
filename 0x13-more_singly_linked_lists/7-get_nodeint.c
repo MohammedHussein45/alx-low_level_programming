@@ -16,7 +16,7 @@ while (temp && i < index)
 temp = temp->next;
 i++;
 }
-if(temp != NULL)
+if (temp != NULL)
 {
 return (temp);
 }
