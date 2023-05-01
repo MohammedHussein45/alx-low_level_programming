@@ -27,7 +27,7 @@ temp = temp->next;
 i++;
 }
 x = temp->next;
-temp->next = current->next;
+temp->next = x->next;
 free(x);
 return (1);
 }
