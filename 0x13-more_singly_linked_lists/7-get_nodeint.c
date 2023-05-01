@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * get_nodeint_at_index - returns the node at a certain index in a linked list
  * @head: first node
@@ -15,6 +16,8 @@ while (temp && i < index)
 temp = temp->next;
 i++;
 }
-if (temp != NULL)
+if(temp != NULL)
+{
 return (temp);
+}
 }
